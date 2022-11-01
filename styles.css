@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    //padding: 0 10%;
+    background-color: grey;
+    
+
+}
+
+.div1 {
+    padding: 0 2rem;
+    //border: 3px solid red;
+    background-color: #1f2937;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div11 {
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+    .div111 {
+        color: #f9faf8;
+        font-size: 24px;
+    }
+
+    .div112, .div113, .div114, .div121 p {
+        color: #e5e7eb;
+        font-size: 18px;
+    }
+
+.div12 {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+   // padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+    .div121 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 1px solid red;
+        //width: 50%;
+        flex: 1 0 40%;
+    }
+
+        .div121 h1 {
+            color: #f9faf8;
+            font-size: 48px;
+            font-weight: bolder;
+        }
+
+        .div121 input {
+            flex: 0 0 8%;
+            align-self: flex-start;
+            background-color: #3882f6;
+            color: #e5e7eb;
+        }
+
+    .div122 {
+    border: 1px solid yellow;
+    flex: 0 0 40%;
+   // display:flex;
+    //flex-direction: column;
+   // justify-content:space-around;
+    //align-content: space-between;
+    }
+
+        .div122>img {
+           //  flex: 0 0 auto;
+            //border: 1px solid blue;
+            border-radius: 5px;
+            width: 100%;
+            height: 80%;
+        }
+
+        .div122>p {
+            //flex: 0 0 auto;
+           // border: 1px solid blue;
+            border-radius: 5px;
+            width: 100%;
+            height: 20%;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+.div2 {
+    padding: 0 2rem;
+    border: 3px solid red;
+    background-color: whitesmoke;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .div21 h1 {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1f2937;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .div22 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+        .div22>div>img {
+            flex: 0 0 10%;
+            border: 1px solid blue;
+            border-radius: 5px;
+            height: 150px;
+        }
+
+        .div22>div>p {
+            text-align: center;
+        }
